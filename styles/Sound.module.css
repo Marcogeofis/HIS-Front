@@ -1,0 +1,40 @@
+.containerVowel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+.vowel{
+    width: 70px;
+    height: 70px;
+    background: var(--color-azul-claro);
+    border-radius: 15px;
+    border: none;
+    color:var(--color-verde-obscuro);
+    font-size: 1.5rem;
+}
+/* switch screen 700px */
+@media screen and (min-width: 700px) {
+    .containerVowel{
+        width: 90px;
+        height: 90px;
+    }
+    .vowel{
+        width: 85px;
+        height: 85px;
+        font-size: 1.7rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .containerVowel{
+        width: 100px;
+        height: 100px;
+    }
+    .vowel{
+        width: 90px;
+        height: 90px;
+        font-size: 1.9rem;
+    }
+}

@@ -1,0 +1,79 @@
+.containerChapters{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.containerChapters__title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.containerChapters__title > h3{
+    font-size: 1.5rem;
+}
+.linkBack{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--color-verde-claro);
+}
+.containerLevelCourse{
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-azul-obscuro);
+    border-radius: 10px;
+    padding: 10px 8px;
+}
+.titleLevelCourse{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+.topicsOfCourses{
+    width: 100%;
+    height: auto;
+}
+.textTopic{
+    width: 100%;
+    height: auto;
+    padding: 1px 0;
+    font-size: 1rem;
+}
+/* switch screen 700px */
+@media screen and (min-width: 700px) {
+    .containerChapters__title > h3{
+        font-size: 1.8rem;
+    }
+    .linkBack{
+        font-size: 1.3rem;
+    }
+    .containerLevelCourse{
+        width: 80%;
+    }
+    .textTopic{
+        font-size: 1.3rem;
+    }
+}
+/* switch screen 1200px */
+@media screen and (min-width: 1200px) {
+    .containerLevelCourse{
+        width: 60%;
+    }
+    .textTopic{
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,103 @@
+.containerChoseClass{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleChoseClass{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.titleChoseClass > h3 {
+    font-size: 1.5rem;
+}
+.linkBack{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-verde-claro)
+}
+.containerIntructions_choseClass{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.textChoseClass{
+    width: 100%;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+.formChoseClass{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background: var(--color-azul-fuerte);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 40px 0;
+}
+.containerfield_choseClass{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.inputChoseClass{
+    width: 100%;
+    height: 35px;
+    padding: 0px 10px;
+    border: none;
+    border-bottom: 1px solid var(--color-verde-olivoOsbcuro);
+    background:var(--color-azul-fuerte);
+    color: var(--color-verde-olivoOsbcuro);
+    font-size: .9rem;
+}
+.labelChoseClass{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: .9rem;
+    color: var(--color-verde-olivoOsbcuro);
+}
+/* switch screen 700px*/
+@media screen and (min-width: 700px) {
+    .formChoseClass{
+        width: 70%;
+    }
+    .containerIntructions_choseClass{
+        width: 80%;
+    }
+}
+/* switch screen 1200px*/
+@media screen and (min-width: 1200px) {
+    .titleChoseClass > h3 {
+        font-size: 1.7rem;
+    }
+    .linkBack{
+        font-size: 1.3rem;
+    }
+    .containerIntructions_choseClass{
+        width: 70%;
+    }
+    .textChoseClass{
+        font-size: 1.3rem;
+    }
+    .formChoseClass{
+        width: 40%;
+        height: auto;
+    }
+    .labelChoseClass{
+        font-size: 1.1rem;
+    }
+}

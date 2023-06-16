@@ -1,0 +1,37 @@
+.containerClassPeriod{
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: var(--color-azul-fuerte);
+    margin-top: 13px;
+}
+.containerTitle__schedule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title__schedule{
+    font-size: 1.3rem;
+    color: var(--color-verde-claro);
+}
+.containerPhoto__teacherClass{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.image__teacherClass{
+    width: 120px;
+    height: 120px;
+    font-size: .8rem;
+}
+.teacherPeriod__text{
+    width: 100%;
+    height: auto;
+    padding: 3px 0;
+    font-size: .8rem;
+}

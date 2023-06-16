@@ -1,0 +1,58 @@
+.containerAUAdmin{width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleAUAdmin{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.textAnswer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+}
+.formAUAdmin{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 50px 0;
+    background: var(--color-azul-fuerte);
+    border-radius: 5px;
+}
+.containerInputLabel__ADAdmin{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.labelADAdmin{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: .9rem;
+    color: var(--color-verde-olivoOsbcuro);
+}
+.inputADAdmin{
+    width: 100%;
+    height: 35px;
+    padding: 0px 10px;
+    border: none;
+    border-bottom: 1px solid var(--color-verde-olivoOsbcuro);
+    background:var(--color-azul-fuerte);
+    color: var(--color-verde-olivoOsbcuro);
+    font-size: .9rem;
+}

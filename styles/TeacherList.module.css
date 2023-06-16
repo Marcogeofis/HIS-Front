@@ -1,0 +1,76 @@
+.containerTeachersList{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.containerTitle__TL{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+.titleTL{
+    font-size: 1.5rem;
+}
+.linkBack__user{
+    text-decoration: none;
+    color:var(--color-verde-claro);
+    font-size: 1.2rem;
+}
+.teachersList__description{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tListInfo{
+    width:100%;
+    height: auto;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: justify;
+}
+.listOfTeachers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+/* switch screen 700px */
+@media screen and (min-width: 700px) {
+    .titleTL{
+        font-size: 1.7rem;
+    }
+    .linkBack__user{
+        font-size: 1.4rem;
+    }
+    .teachersList__description{
+        width: 80%;
+    }
+    .tListInfo{
+        font-size: 1.2rem;
+    }
+}
+/* switch screen 1200px */
+@media screen and (min-width: 1200px) {
+    .teachersList__description{
+        width: 60%;
+    }
+    .listOfTeachers{
+        margin-bottom: 45px;
+    }
+}

@@ -1,0 +1,35 @@
+.containerDWDAdmin{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px;
+}
+.messageDWDAdmin{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.messageDWDAdmin > h3{
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    margin: 20px 0;
+    text-align: center;
+}
+.textDWDAdmin{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.linkBack{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--color-verde-claro);
+    margin: 20px 0;
+}

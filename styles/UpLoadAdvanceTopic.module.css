@@ -1,0 +1,114 @@
+.containerAdvanceTopic{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleAdvanceTopic{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleAdvanceTopic > h3{
+    font-size: 1.5rem;
+}
+.linkBack{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-verde-claro);
+}
+.instructionsAdvanceTopic{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.textAdvanceTopic{
+    font-size: 1rem;
+}
+.formAdvanceTopic{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 50px 0;
+    background: var(--color-azul-fuerte);
+    border-radius: 5px;
+}
+.containerInputLabel__AdvanceTopic{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.labelAdvanceTopic{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: .9rem;
+    color: var(--color-verde-olivoOsbcuro);
+}
+.inputAdvanceTopic{
+    width: 100%;
+    height: 35px;
+    padding: 0px 10px;
+    border: none;
+    border-bottom: 1px solid var(--color-verde-olivoOsbcuro);
+    background:var(--color-azul-fuerte);
+    color: var(--color-verde-olivoOsbcuro);
+    font-size: .9rem;
+}
+/* switch screen 700px */
+@media screen and (min-width:700px){
+    .titleAdvanceTopic > h3{
+        font-size: 1.5rem;
+    }
+    .linkBack{
+        font-size: 1.2rem;
+    }
+    .formAdvanceTopic{
+        width: 80%;
+    }
+    .textAdvanceTopic{
+        font-size: 1.2rem;
+    }
+}
+/* switch screen 1200px */
+@media screen and (min-width:1200px){
+    .titleAdvanceTopic > h3{
+        font-size: 1.8rem;
+    }
+    .linkBack{
+        font-size: 1.5rem;
+    }
+    .instructionsAdvanceTopic{
+        width: 60%;
+    }
+    .formAdvanceTopic{
+        width: 60%;
+    }
+    .textAdvanceTopic{
+        font-size: 1.4rem;
+    }
+    .labelAdvanceTopic{
+        font-size: 1.4rem;
+    }
+    .inputAdvanceTopic{
+        font-size: 1.4rem;
+    }
+}

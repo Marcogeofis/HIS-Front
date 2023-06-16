@@ -1,0 +1,66 @@
+:root {
+  --color-verde-olivo:#d9ed92;
+  --color-verde-olivoOsbcuro:#b5e48c;
+  --color-verde-claro:#99d98c;
+  --color-verde-obscuro:#76c893;
+  --color-verde-agua:#52b69a;
+  --color-azul-grisacio:#34a0a4;
+  --color-azul-claro:#168aad;
+  --color-azul-obscuro:#1a759f;
+  --color-azul-fuerte:#1e6091;
+  --color-azul-fuerteObscuro:#184e77;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  background: var(--color-azul-fuerteObscuro);
+  color: white
+}
+
+
+
+/* 
+colores de pruaba
+Azul: #0077B5
+Verde: #6BBB1B
+Amarillo: #FFC627
+Rojo: #E71D36
+Naranja: #FF6600
+
+Coolors: https://coolors.co/
+Adobe Color: https://color.adobe.com/create/color-wheel
+Color Hunt: https://colorhunt.co/
+Paletton: https://paletton.com/
+Material Design Color Tool: https://material.io/resources/color/
+
+
+
+#EA953E naranja
+#B5FF8C verde agua
+#000000 negro
+#C322FF morado
+#50D8EA azul claro
+#FFFFFF blanco
+
+
+Otra paleta de colores
+#d9ed92
+#b5e48c
+#99d98c
+#76c893
+#52b69a
+#34a0a4
+#168aad
+#1a759f
+#1e6091
+#184e77
+
+
+*/

@@ -1,0 +1,80 @@
+.containerTeacher__buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 10px;
+}
+.instructionSpace__work{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+}
+.textInstruction{
+    font-size: .9rem;
+}
+.containerLink{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+.linkDirection{
+    background: var(--color-azul-claro);
+    color: var(--color-verde-olivo);
+    font-size: 1rem;
+}
+.linkName{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 5px 5px;
+    border-radius: 8px;
+    background: var(--color-azul-claro);
+    text-decoration: none;
+}
+@media screen and (min-width: 700px) {
+    .instructionSpace__work{
+        width: 80%;
+        padding: 0 10px;
+    }
+    .textInstruction{
+        font-size: 1rem;
+    }
+    .linkDirection{
+        font-size: 1.1rem;
+    }
+    .linkName{
+        height: 60px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .instructionSpace__work{
+        width: 45%;
+        padding: 0 10px;
+    }
+    .textInstruction{
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .containerLink{
+        width: 50%;
+    }
+    .linkDirection{
+        font-size: 1.2rem;
+    }
+    .linkName{
+        width: 30%;
+        height: 65px;
+    }
+}

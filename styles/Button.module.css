@@ -1,0 +1,20 @@
+.containerButton{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonStyle{
+    width: 90%;
+    height: 50px;
+    border-radius: 13px;
+    border: none;
+    background: var(--color-verde-olivoOsbcuro);
+    color: var(--color-azul-fuerte);
+    margin-top: 20px ;
+    font-size: 1.2rem;
+}
+.ButtonStyle:hover{
+    background: var(--color-verde-olivo);
+}

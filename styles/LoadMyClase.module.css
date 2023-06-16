@@ -1,0 +1,104 @@
+.containerMy_clases{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.sectionTitle_myClases{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titlePageClases{
+    font-size: 1.5rem;
+}
+.linkBack__user{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:var(--color-verde-claro)
+}
+.sectionMyclase_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.titleInfo{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.textMyClases{
+    width: 100%;
+    height: auto;
+    margin: 5px 0px;
+    font-size: 1rem;
+}
+.sectionLevel_clases{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.sectionLevel_clases > h3{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.wrapLevel_clases{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/* switch screen 700px */
+@media screen and (min-width: 700px) {
+    .titleInfo{
+        font-size: 1.3rem;
+    }
+    .textMyClases{
+        font-size: 1.1rem;
+    }
+    .sectionMyclase_info{
+        width: 80%;
+    }
+    .sectionLevel_clases{
+        width: 80%;
+    }
+    .sectionLevel_clases > h3{
+        font-size: 1.3rem;
+    }
+}
+/* switch screen 1200px */
+@media screen and (min-width: 1200px) {
+    .titleInfo{
+        font-size: 1.4rem;
+    }
+    .textMyClases{
+        font-size: 1.2rem;
+    }
+    .sectionMyclase_info{
+        width: 70%;
+    }
+    .sectionLevel_clases{
+        width: 70%;
+    }
+}

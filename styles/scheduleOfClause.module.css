@@ -1,0 +1,47 @@
+.containerScheduleClause{
+    width: 100%;
+    height: auto;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerScheduleClause__title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.scheduleClause__title{
+    font-size: 1.5rem;
+}
+.backUser{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-verde-claro);
+}
+.containerSchedule__instruction{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.scheduleOfClause__text{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    text-align: justify;
+}
+.containerScheduleTeacher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

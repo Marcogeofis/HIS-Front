@@ -1,0 +1,27 @@
+.navclasses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navclasses .directioOfClass{
+    text-decoration: none;
+    color: var(--color-azul-fuerteObscuro);
+}
+.listName{
+    width: 100%;
+    height: auto;
+    padding: 3px 3px;
+    list-style: none;
+    background: var(--color-verde-claro);
+    border-radius: 5px;
+}
+/* switch screen 700 */
+@media screen and (min-width: 700px) {
+
+}
+/* switch screen 1200 */
+@media screen and (min-width: 1200px) {
+    .navclasses .directioOfClass{
+        font-size: 1.1rem;
+    }
+}

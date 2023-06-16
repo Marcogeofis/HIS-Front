@@ -1,0 +1,142 @@
+.containerUserInfo{
+    width: 100%;
+    height: auto;
+}
+.userApp__HIS{
+    width: 100%;
+    height: 130px;
+    font-size: 10px;
+}
+.backgroundUser__app{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#d9ed92,
+    #b5e48c,
+    #99d98c,
+    #76c893,
+    #52b69a,
+    #34a0a4,
+    #168aad,
+    #1a759f,
+    #1e6091,
+    #184e77
+    );
+    
+}
+.backgroundImage__HIS{
+    width: 190px;
+    height: 90px;
+}
+.containerUserPhoto{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.userPhoto{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background:rgba(181, 228, 140, 0.404);
+}
+.containerUserData{
+    width: 100%;
+    height: auto;
+    padding: 5px 15px;
+    margin-top: 20px;
+    font-size: .9rem;
+}
+.containerLogin__session{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:230px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+.goalUser{
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+}
+.linkEditGoal{
+    text-decoration: none;
+    color:var(--color-verde-olivoOsbcuro);
+    font-size: .9rem;
+}
+/* switch screen*/
+@media screen and (min-width: 700px) {
+    .backgroundUser__app{
+        width: 100%;
+        height: 200px;
+    }
+    .backgroundImage__HIS{
+        width: 500px;
+        height: 170px;
+    }
+    .containerUserPhoto{
+        position: absolute;
+        top: 240px;
+        left: 25px;
+    }
+    .userPhoto{
+        width: 88px;
+        height: 88px;
+    }
+    .containerUserData{
+        margin-top: 130px;
+    }
+    .userData{
+        font-size: 1rem;
+    }
+    .containerLogin__session{
+        font-size: 1rem;
+        top: 280px;
+    }
+    .linkEditGoal{
+        font-size: 1rem;
+    }
+}
+/* switch screen*/
+@media screen and (min-width: 1200px) {
+    .backgroundUser__app{
+        width: 100%;
+        height: 250px;
+    }
+    .containerUserPhoto{
+        top: 285px;
+        left: 180px;
+    }
+    .userPhoto{
+        width: 136px;
+        height: 136px;
+    }
+    .containerUserData{
+        width: 40%;
+        margin-top: 210px;
+        margin-left: 140px;
+    }
+    .userData{
+        font-size: 1.1rem;
+    }
+    .containerLogin__session{
+        font-size: 1.1rem;
+        top: 325px;
+        right: 130px;
+    }
+    .linkEditGoal{
+        width: 40%;
+        margin-left: 140px;
+        font-size: 1.1rem;
+    }
+}

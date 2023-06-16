@@ -1,0 +1,117 @@
+.containerClassSelected{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.titleClassSelected{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.titleClassSelected > h3{
+    font-size: 1.5rem;
+}
+.linkBack{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-verde-claro)
+}
+.titleOfCLass{
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.helperOfClass{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 0;
+}
+.buttonToHelp{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: var(--color-azul-claro);
+    color: var(--color-verde-claro);
+    font-size: 1.3rem;
+}
+.helperComponents{
+    display: none;
+}
+/* switch screen 700 */
+@media screen and (min-width: 700px) {
+    .buttonToHelp{
+        width: 300px;
+        height: 40px;
+    }
+}
+/* switch screen 1200 */
+@media screen and (min-width: 1200px) {
+    .titleClassSelected > h3{
+        font-size: 1.8rem;
+    }
+    .helperOfClass{
+        display: none;
+    }
+    .helperComponents{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .tapComponent{
+        width: 40%;
+        height: 500px;
+        border-radius: 15px;
+        background: var(--color-azul-obscuro);
+    }
+    .containerVocabulary{
+        width: 60%;
+        height: 500px;
+        padding: 10px 20px;
+        border-radius: 15px;
+        background: var(--color-azul-obscuro);
+    }
+    .containerVocabulary > h3{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .vocabularyComponent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .imageWithAudio{
+        width: 100px;
+        height: 100px;
+        background: black;
+        color: white;
+    }
+}
+/* switch screen 1600 */
+@media screen and (min-width: 1600px) {
+    .helperComponents{
+        padding: 0 100px;
+    }
+}

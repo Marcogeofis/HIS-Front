@@ -1,0 +1,33 @@
+.levelName{
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.level{
+    width: 80px;
+    height: auto;
+    padding: 5px 0;
+    text-align: center;
+    background: var(--color-verde-agua);
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+/* switch screen 700px */
+@media screen and (min-width: 700px) {
+    .level{
+        width: 90px;
+        height: auto;
+        font-size: 1.4rem;
+    }
+}
+/* switch screen 1200px */
+@media screen and (min-width: 1200px) {
+    .titleOfLevel{
+        font-size: 1.4rem;
+    }
+    .level{
+        width: 100px;
+        font-size: 1.4rem;
+    }
+}

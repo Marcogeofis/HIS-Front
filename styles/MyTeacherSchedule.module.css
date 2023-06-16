@@ -1,0 +1,66 @@
+.containerTeacherBiography{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+    background: var(--color-azul-obscuro);
+    border-radius: 15px;
+}
+.teacherList__title{
+    width:100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 0 20px 0;
+    color:var(--color-verde-claro)
+}
+.teacherPhoto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+}
+.containerTeacher__info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5px 5px;
+}
+.AboutTeacher{
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    padding: 1px 0;
+}
+/* switch screen 700px */
+@media screen and (min-width: 700px) {
+    .containerTeacherBiography{
+        width: 50%;
+    }
+    .teacherList__title{
+        font-size: 1.3rem;
+    }
+    .AboutTeacher{
+        font-size: 1.1rem;
+    }
+}
+/* switch screen 1200px */
+@media screen and (min-width: 1200px) {
+    .containerTeacherBiography{
+        width: 30%;
+    }
+}
+
+
+

@@ -1,0 +1,114 @@
+.containerTSchedule{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleTSchedule{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleTSchedule > h3{
+    font-size: 1.5rem;
+}
+.linkBack{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-verde-claro);
+}
+.instructionsTSchedule{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.textTSchedule{
+    font-size: 1rem;
+}
+.formTSchedule{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 50px 0;
+    background: var(--color-azul-fuerte);
+    border-radius: 5px;
+}
+.containerInputLabel__TSchedule{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.labelTSchedule{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: .9rem;
+    color: var(--color-verde-olivoOsbcuro);
+}
+.inputTSchedule{
+    width: 100%;
+    height: 35px;
+    padding: 0px 10px;
+    border: none;
+    border-bottom: 1px solid var(--color-verde-olivoOsbcuro);
+    background:var(--color-azul-fuerte);
+    color: var(--color-verde-olivoOsbcuro);
+    font-size: .9rem;
+}
+/* switch screen 700px */
+@media screen and (min-width:700px){
+    .titleTSchedule > h3{
+        font-size: 1.5rem;
+    }
+    .linkBack{
+        font-size: 1.2rem;
+    }
+    .formTSchedule{
+        width: 80%;
+    }
+    .textTSchedule{
+        font-size: 1.2rem;
+    }
+}
+/* switch screen 1200px */
+@media screen and (min-width:1200px){
+    .titleTSchedule > h3{
+        font-size: 1.8rem;
+    }
+    .linkBack{
+        font-size: 1.5rem;
+    }
+    .instructionsTSchedule{
+        width: 60%;
+    }
+    .formTSchedule{
+        width: 60%;
+    }
+    .textTSchedule{
+        font-size: 1.4rem;
+    }
+    .labelTSchedule{
+        font-size: 1.4rem;
+    }
+    .inputTSchedule{
+        font-size: 1.4rem;
+    }
+}

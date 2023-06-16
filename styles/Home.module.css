@@ -1,0 +1,189 @@
+.containerHome{
+    width: 100%;
+    height:auto;
+}
+.imageHome{
+    width: 100%;
+    min-height:320px;
+}
+.container_titleApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleApp{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height:auto;
+    text-align: center;
+    background: var(--color-verde-obscuro);
+    padding: 15px 15px;
+    top:340px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 11px rgba(0,0,0,0.3);
+}
+.titleApp > h1{
+    font-size: 1.2rem;
+}
+.introductionApp{
+    margin-top: 130px;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleVideo__school{
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    text-align: center;
+    padding: 8px;
+}
+.examplesApp{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 230px;
+    top: 15px;
+}
+.textExample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    margin: 8px 0px;
+    border-radius: 15px;
+    background: var(--color-verde-obscuro) ;
+    box-shadow: 0px 4px 11px rgba(0,0,0,0.3);
+    font-size: 1rem;
+    list-style: none;
+}
+.freeTest__app{
+    margin-top:35px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    background: var(--color-azul-grisacio);
+}
+.freeTest__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testText{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.linkRegister{
+    text-decoration: none;
+    color: var(--color-azul-fuerte);
+}
+.testText__doit{
+    font-size: 3rem;
+    text-align: center;
+    color:var(--color-azul-fuerteObscuro);
+}
+@media screen and (min-width: 700px) {
+    .imageHome{
+        width:100%;
+        height:450px;
+    }
+    .titleApp{
+        top:465px;
+    }
+    .titleApp > h1{
+        font-size: 1.5rem;
+    }
+    .sectionVideo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titleVideo__school{
+        width: 100%;
+        height: auto;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 8px;
+    }
+    .containerVideo{
+        width: 90%;
+        height: 300px;
+    }
+    .examplesApp{
+        flex-wrap:wrap;
+    }
+    .textExample{
+        width: 200px;
+        height: 100px;
+        font-size: 1.2rem;
+        text-align: center;
+        list-style: none;
+    }
+    .testText{
+        font-size: 1.2rem;
+    }
+    .freeTest__app{
+        margin-bottom: 100px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .imageHome{
+        width:100%;
+        height:600px;
+    }
+    .titleApp{
+        width: 80%;
+        height: 170px;
+        top:580px;
+    }
+    .titleApp > h1{
+        font-size: 1.7rem;
+    }
+    .titleVideo__school{
+        font-size: 1.7rem;
+    }
+    .sectionVideo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .containerVideo{
+        width: 90%;
+        height: 400px;
+    }
+    .examplesApp{
+        margin: 80px 0;
+    }
+    .freeTest__app{
+        margin-bottom: 150px;
+    }
+    .textExample{
+        width: 300px;
+        height: 150px;
+        font-size: 1.7rem;
+    }
+    .testText{
+        font-size: 1.7rem;
+    }
+    .testText__doit{
+        font-size: 3.3rem;
+    }
+}

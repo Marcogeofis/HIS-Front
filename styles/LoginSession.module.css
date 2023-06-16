@@ -1,0 +1,26 @@
+.containerSession{
+    width:auto;
+    height: auto;
+    
+}
+.linkSession{
+    text-decoration: none;
+    color: var(--color-verde-claro);
+    font-size: 0.9rem;
+    padding: 5px;
+}
+.linkSession:hover{
+    background: var(--color-azul-obscuro);
+}
+/* switch screen */
+@media screen and (min-width: 700px) {
+    .linkSession{
+        font-size: 1rem;
+    }
+}
+/* switch screen */
+@media screen and (min-width: 1200px) {
+    .linkSession{
+        font-size: 1.1rem;
+    }
+}

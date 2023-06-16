@@ -1,0 +1,114 @@
+.containerVocabulary{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleVocabulary{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleVocabulary > h3{
+    font-size: 1.5rem;
+}
+.linkBack{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-verde-claro);
+}
+.instructionsVocabulary{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.textVocabulary{
+    font-size: 1rem;
+}
+.formVocabulary{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 50px 0;
+    background: var(--color-azul-fuerte);
+    border-radius: 5px;
+}
+.containerInputLabel__Vocabulary{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.labelVocabulary{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: .9rem;
+    color: var(--color-verde-olivoOsbcuro);
+}
+.inputVocabulary{
+    width: 100%;
+    height: 35px;
+    padding: 0px 10px;
+    border: none;
+    border-bottom: 1px solid var(--color-verde-olivoOsbcuro);
+    background:var(--color-azul-fuerte);
+    color: var(--color-verde-olivoOsbcuro);
+    font-size: .9rem;
+}
+/* switch screen 700px */
+@media screen and (min-width:700px){
+    .titleVocabulary > h3{
+        font-size: 1.5rem;
+    }
+    .linkBack{
+        font-size: 1.2rem;
+    }
+    .formVocabulary{
+        width: 80%;
+    }
+    .textVocabulary{
+        font-size: 1.2rem;
+    }
+}
+/* switch screen 1200px */
+@media screen and (min-width:1200px){
+    .titleVocabulary > h3{
+        font-size: 1.8rem;
+    }
+    .linkBack{
+        font-size: 1.5rem;
+    }
+    .instructionsVocabulary{
+        width: 60%;
+    }
+    .formVocabulary{
+        width: 60%;
+    }
+    .textVocabulary{
+        font-size: 1.4rem;
+    }
+    .labelVocabulary{
+        font-size: 1.4rem;
+    }
+    .inputVocabulary{
+        font-size: 1.4rem;
+    }
+}
