@@ -80,7 +80,7 @@ export default function LoadMyClase () {
                     <StartMyClase
                         section="Section A12"
                         hola mundo
-                        
+                        git status
                     /> */}
                 </div>
             </div>
